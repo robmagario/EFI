@@ -11,6 +11,9 @@ I have tried with iMac19,1 before but it doesn't work with hardware acceleration
 What works
 - hardware acceleration. I have tested it with VideoProC.
 - most USB ports works. At the least the ones I need to use, including the USB Type-C port.
+- sound and mic both work. Before there was a problem with some weird noise on the mic but now it works normally
+because I found that the problem was because I had not added the AppleALC to the boot args.
+After I did it, the weird noise completely vanished. 
 
 What doesn't work
 - WiFi doesn't work but I installed a Fenvi card and it works well now. 
